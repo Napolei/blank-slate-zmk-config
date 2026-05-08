@@ -3,11 +3,11 @@
 #include "keys_de.h"
 
 // https://github.com/urob/zmk-helpers/blob/main/include/zmk-helpers/key-labels/4x12.h
-#include "zmk-helpers/key-labels/4x12.h"
 
 // https://github.com/urob/zmk-config
 
 #include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/4x12.h"
 #include "zmk-helpers/unicode-chars/currency.dtsi"
 #include "zmk-helpers/unicode-chars/german.dtsi"
 #include "zmk-helpers/unicode-chars/french.dtsi"
