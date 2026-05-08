@@ -64,40 +64,40 @@ ZMK_HOLD_TAP(hmr,
 
 // combos
 ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
-ZMK_COMBO(save,         &kp LC(DE_S),    LB3 LM3, ALL)
-ZMK_COMBO(search,       &kp LC(DE_F),    LB1 LM1, ALL)
+// ZMK_COMBO(save,         &kp LC(DE_S),    LB3 LM3, ALL)
+// ZMK_COMBO(search,       &kp LC(DE_F),    LB1 LM1, ALL)
 
-ZMK_COMBO(undo,         &kp LC(DE_Z),    RT0 RM0, ALL)
-ZMK_COMBO(undo_2,       &kp LC(DE_Z),    RM5 RT5, ALL)
-ZMK_COMBO(redo,         &kp LC(DE_Y),    LB3 LB4, ALL)
+// ZMK_COMBO(undo,         &kp LC(DE_Z),    RT0 RM0, ALL)
+// ZMK_COMBO(undo_2,       &kp LC(DE_Z),    RM5 RT5, ALL)
+// ZMK_COMBO(redo,         &kp LC(DE_Y),    LB3 LB4, ALL)
 
-ZMK_COMBO(home,         &kp HOME,        RB3 RB4, ALL)
-ZMK_COMBO(end,          &kp END,         RB4 RB5, ALL)
+// ZMK_COMBO(home,         &kp HOME,        RB3 RB4, ALL)
+// ZMK_COMBO(end,          &kp END,         RB4 RB5, ALL)
 
-ZMK_COMBO(backspace,    &kp BSPC,        LT0 LT1, ALL)
-ZMK_COMBO(delete,       &kp DELETE,      LM0 LM1, ALL)
-ZMK_COMBO(ctrl_bspc,    &kp LC(BSPC),    RT4 RT5, ALL)
-ZMK_COMBO(ctrl_del,     &kp LC(DELETE),  RM4 RM5, ALL)
+// ZMK_COMBO(backspace,    &kp BSPC,        LT0 LT1, ALL)
+// ZMK_COMBO(delete,       &kp DELETE,      LM0 LM1, ALL)
+// ZMK_COMBO(ctrl_bspc,    &kp LC(BSPC),    RT4 RT5, ALL)
+// ZMK_COMBO(ctrl_del,     &kp LC(DELETE),  RM4 RM5, ALL)
 
-ZMK_COMBO(ctrl_alt_del,     &kp LC(LA(DELETE)),   LT4 LT5, ALL)
-ZMK_COMBO(alt_f4,           &kp LA(F4),           LT5 RT5, ALL)
+// ZMK_COMBO(ctrl_alt_del,     &kp LC(LA(DELETE)),   LT4 LT5, ALL)
+// ZMK_COMBO(alt_f4,           &kp LA(F4),           LT5 RT5, ALL)
 
-ZMK_COMBO(cut,                  &kp LC(DE_X),       LB2 LB3, ALL)
-ZMK_COMBO(copy,                 &kp LC(DE_C),       LB1 LB2, ALL)
-ZMK_COMBO(paste,                &kp LC(DE_V),       LB0 LB1, ALL)
-ZMK_COMBO(paste_unformatted,    &kp LA(LC(DE_V)),   LB0 LB2, ALL)
+// ZMK_COMBO(cut,                  &kp LC(DE_X),       LB2 LB3, ALL)
+// ZMK_COMBO(copy,                 &kp LC(DE_C),       LB1 LB2, ALL)
+// ZMK_COMBO(paste,                &kp LC(DE_V),       LB0 LB1, ALL)
+// ZMK_COMBO(paste_unformatted,    &kp LA(LC(DE_V)),   LB0 LB2, ALL)
 
-ZMK_COMBO(lock_screen,  &kp LG(DE_L), RM2 RM3, ALL)
+// ZMK_COMBO(lock_screen,  &kp LG(DE_L), RM2 RM3, ALL)
 
 // jetbrains
-ZMK_COMBO(ctrl_q,       &kp LC(DE_Q),       LM4 LT4, ALL)
-ZMK_COMBO(ctrl_p,       &kp LC(DE_P),       RM4 RT4, ALL)
-ZMK_COMBO(ctrl_d,       &kp LC(DE_D),       LM2 LB2, ALL)
-ZMK_COMBO(ctrl_r,       &kp LC(DE_R),       LM1 LT1, ALL)
-ZMK_COMBO(ctrl_t,       &kp LC(DE_T),       LM0 LT0, ALL)
-ZMK_COMBO(ctrl_alt_o,   &kp LC(LA(DE_O)),   RM3 RT3, ALL)
-ZMK_COMBO(ctrl_alt_l,   &kp LC(LA(DE_L)),   RB3 RM3, ALL)
-ZMK_COMBO(comment,      &kp LC(KP_DIVIDE),  RB5 RM5, ALL)
+// ZMK_COMBO(ctrl_q,       &kp LC(DE_Q),       LM4 LT4, ALL)
+// ZMK_COMBO(ctrl_p,       &kp LC(DE_P),       RM4 RT4, ALL)
+// ZMK_COMBO(ctrl_d,       &kp LC(DE_D),       LM2 LB2, ALL)
+// ZMK_COMBO(ctrl_r,       &kp LC(DE_R),       LM1 LT1, ALL)
+// ZMK_COMBO(ctrl_t,       &kp LC(DE_T),       LM0 LT0, ALL)
+// ZMK_COMBO(ctrl_alt_o,   &kp LC(LA(DE_O)),   RM3 RT3, ALL)
+// ZMK_COMBO(ctrl_alt_l,   &kp LC(LA(DE_L)),   RB3 RM3, ALL)
+// ZMK_COMBO(comment,      &kp LC(KP_DIVIDE),  RB5 RM5, ALL)
 
 ZMK_LAYER(default_layer,
  &kp ESC    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
