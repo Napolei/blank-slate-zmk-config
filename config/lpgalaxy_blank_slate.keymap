@@ -63,7 +63,7 @@ ZMK_HOLD_TAP(hmr,
 };
 
 // combos
-// ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
+ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4)
 // ZMK_COMBO(save,         &kp LC(DE_S),    LB3 LM3, ALL)
 // ZMK_COMBO(search,       &kp LC(DE_F),    LB1 LM1, ALL)
 
