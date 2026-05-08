@@ -49,18 +49,18 @@ ZMK_HOLD_TAP(hml,
     bindings = <&kp>, <&kp>;
 )
 
-// ZMK_HOLD_TAP(hmr,
-//     flavor = "balanced";
-//     tapping-term-ms = <TAPPING_TERM_MS>;
-//     require-prior-idle-ms = <PRIOR_IDLE_MS>;
-//     hold-trigger-key-positions = <PINKY_L PINKY_R KEYS_L THUMBS>;
-//     hold-trigger-on-release;
-//     bindings = <&kp>, <&kp>;
-// )
+ZMK_HOLD_TAP(hmr,
+    flavor = "balanced";
+    tapping-term-ms = <TAPPING_TERM_MS>;
+    require-prior-idle-ms = <PRIOR_IDLE_MS>;
+    hold-trigger-key-positions = <PINKY_L PINKY_R KEYS_L THUMBS>;
+    hold-trigger-on-release;
+    bindings = <&kp>, <&kp>;
+)
 
-// &caps_word {
-//     continue-list = <UNDERSCORE MINUS DE_MINUS DE_COMMA DE_DOT>;
-// };
+&caps_word {
+    continue-list = <UNDERSCORE MINUS DE_MINUS DE_COMMA DE_DOT>;
+};
 
 // combos
 // ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
