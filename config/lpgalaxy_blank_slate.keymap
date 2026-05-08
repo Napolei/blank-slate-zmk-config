@@ -27,12 +27,12 @@
 #define PINKY_L LT5 LM5 LB5
 #define PINKY_R RT5 RM5 RB5
 
-// #define TBLE_ORTHO   1
-// #define QWERTY_BASE 1
-// #define NAV_L 1
-// #define NUM_L 2
-// #define SYM_L 3
-// #define BT(n) BT_SEL n
+#define TBLE_ORTHO   1
+#define QWERTY_BASE 1
+#define NAV_L 1
+#define NUM_L 2
+#define SYM_L 3
+#define BT(n) BT_SEL n
 
 #undef COMBO_TERM
 #define COMBO_TERM 50
