@@ -15,7 +15,7 @@ manifest:
       remote: petejohanson
       revision: v0.3
     - name: zmk-helpers
-      remote: https://github.com/urob
+      remote: urob
       revision: main
   self:
     path: config
