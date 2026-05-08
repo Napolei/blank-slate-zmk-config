@@ -63,7 +63,7 @@ ZMK_HOLD_TAP(hmr,
 };
 
 // combos
-ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
+// ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
 // ZMK_COMBO(save,         &kp LC(DE_S),    LB3 LM3, ALL)
 // ZMK_COMBO(search,       &kp LC(DE_F),    LB1 LM1, ALL)
 
@@ -100,8 +100,8 @@ ZMK_COMBO(select_all,   &kp LC(DE_A),    LB4 LM4, ALL)
 // ZMK_COMBO(comment,      &kp LC(KP_DIVIDE),  RB5 RM5, ALL)
 
 ZMK_LAYER(default_layer,
- &kp ESC    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
- &kp TAB    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
- &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp RET
- &kp LCTRL  &mo SYM_L   &kp LGUI  &kp LALT    &mo NAV_L      &kp SPACE      &kp RET          &mo NUM_L      &kp LEFT    &kp UP     &kp DOWN      &kp RIGHT
+        &lt SYM ESCAPE  &kp DE_Q            &kp DE_W            &kp DE_E            &kp DE_R            &kp DE_T                    &kp DE_Z        &kp DE_U            &kp DE_I            &kp DE_O            &kp DE_P            &kp BSPC
+        &lt NUM TAB     &hml LGUI DE_A      &hml LALT DE_S      &hml LCTRL DE_D     &hml LSHFT DE_F     &kp DE_G                    &kp DE_H        &hmr RSHFT DE_J     &hmr LCTRL DE_K     &hmr LALT DE_L      &hmr LGUI UP_ARROW  &lt NUM DELETE
+        &kp LSHFT       &caps_word          &kp DE_Y            &kp DE_X            &kp DE_C            &kp DE_V                    &kp DE_B        &kp DE_N            &kp DE_M            &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW
+        ---             ---                 ---                 &lt SYM DE_MINUS    &lt FUN DE_COMMA    &kp ENTER                   &kp SPACE       &lt FUN DE_COMMA    &lt SYM DE_DOT      ---                 ---                 ---
 )
