@@ -97,7 +97,7 @@ ZMK_COMBO(ctrl_r,       &kp LC(DE_R),       LM1 LT1)
 ZMK_COMBO(ctrl_t,       &kp LC(DE_T),       LM0 LT0)
 ZMK_COMBO(ctrl_alt_o,   &kp LC(LA(DE_O)),   RM3 RT3)
 ZMK_COMBO(ctrl_alt_l,   &kp LC(LA(DE_L)),   RB3 RM3)
-ZMK_COMBO(comment,      &kp LC(KP_DIVIDE),  RB5 RM5, ALL)
+ZMK_COMBO(comment,      &kp LC(KP_DIVIDE),  RB5 RM5)
 
 ZMK_LAYER(default_layer,
         &lt SYM ESCAPE  &kp DE_Q            &kp DE_W            &kp DE_E            &kp DE_R            &kp DE_T                    &kp DE_Z        &kp DE_U            &kp DE_I            &kp DE_O            &kp DE_P            &kp BSPC
