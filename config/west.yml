@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,11 @@ manifest:
     - name: blank-slate-zmk-module
       remote: petejohanson
       revision: v0.3
+    - name: zmk-helpers
+      remote: https://github.com/urob
+      revision: main
   self:
     path: config
+
+parse_config:
+  zmk_additional_includes: ["zmk-helpers/include"]
